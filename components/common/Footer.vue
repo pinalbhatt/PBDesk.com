@@ -1,6 +1,8 @@
 <template>
   <div>
-    <div><ad-responsive></ad-responsive></div>
+    <section>
+      <ad-responsive></ad-responsive>
+    </section>
     <v-footer class="blue darken-2" :clipped-left="true" :fixed="false">
       <v-layout row wrap align-center>
         <v-flex xs12>
@@ -14,10 +16,10 @@
   </v-footer>
     <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
-      (adsbygoogle = window.adsbygoogle || []).push({
-        google_ad_client: "ca-pub-4686631795727964",
-        enable_page_level_ads: true
-      });
+      // (adsbygoogle = window.adsbygoogle || []).push({
+      //   google_ad_client: "ca-pub-4686631795727964",
+      //   enable_page_level_ads: true
+      // });
     </script>
   </div>
 </template>

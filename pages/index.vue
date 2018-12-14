@@ -104,6 +104,9 @@
               to="/inspire">Continue</v-btn>
           </v-card-actions>
         </v-card>
+        <section>
+          <ad-responsive></ad-responsive>
+        </section>
         <v-card>
           <v-card-title class="headline">Welcome to the Vuetify + Nuxt.js template</v-card-title>
           <v-card-text>
