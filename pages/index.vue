@@ -49,6 +49,9 @@
       </v-layout>
     </section>
     <section>
+      <ad-responsive></ad-responsive>
+    </section>
+    <section>
       <my-blog-parallex></my-blog-parallex>
     </section>
     <v-layout
@@ -148,6 +151,7 @@ import Banner from '../components/home/Banner';
 import Logo from '~/components/Logo.vue';
 import VuetifyLogo from '~/components/VuetifyLogo.vue';
 import MyBlogParallex from '~/components/widgets/MyBlogParallex';
+import AdResponsive from '../components/ad/ResponsiveAd';
 
 export default {
   layout: 'home',
@@ -156,6 +160,7 @@ export default {
     Logo,
     VuetifyLogo,
     MyBlogParallex,
+    AdResponsive,
   },
   data() {
     return {
