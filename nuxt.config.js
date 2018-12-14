@@ -17,6 +17,10 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' },
     ],
+    script: [
+      { src: '//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' },
+      // { innerHtml: '(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "ca-pub-4686631795727964", enable_page_level_ads: true});', type: 'text/javascript', charset: 'utf-8' },
+    ],
   },
 
   /*

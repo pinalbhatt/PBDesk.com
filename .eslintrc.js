@@ -23,6 +23,7 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'vue/no-unused-components': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'max-len': [1, { "code": 180, "tabWidth": 2 }],
     'vue/component-name-in-template-casing': 0,
     'import/no-extraneous-dependencies': 0,
