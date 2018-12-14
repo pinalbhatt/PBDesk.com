@@ -6,9 +6,7 @@
       <section style="margin-bottom: 0">
         <banner></banner>
       </section>
-      <v-container>
-        <nuxt />
-      </v-container>
+      <nuxt />
     </v-content>
     <Footer></Footer>
   </v-app>

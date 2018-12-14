@@ -1,6 +1,7 @@
 <template>
   <div>
-    <section>
+    <v-container>
+      <section>
       <v-layout
         column
         wrap
@@ -48,13 +49,15 @@
         <!--</v-flex>-->
       </v-layout>
     </section>
-    <section>
+      <section>
       <ad-responsive></ad-responsive>
     </section>
+    </v-container>
     <section>
       <my-blog-parallex></my-blog-parallex>
     </section>
-    <v-layout
+    <v-container>
+      <v-layout
       column
       justify-center
       align-center>
@@ -146,6 +149,7 @@
         </v-card>
       </v-flex>
     </v-layout>
+    </v-container>
   </div>
 </template>
 

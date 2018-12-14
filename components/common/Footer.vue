@@ -1,8 +1,8 @@
 <template>
   <div>
-    <section>
+    <v-container>
       <ad-responsive></ad-responsive>
-    </section>
+    </v-container>
     <v-footer class="blue darken-2" :clipped-left="true" :fixed="false">
       <v-layout row wrap align-center>
         <v-flex xs12>
