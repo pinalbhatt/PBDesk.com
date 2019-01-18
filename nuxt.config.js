@@ -1,5 +1,7 @@
+require('dotenv').config();
 const pkg = require('./package');
 
+console.log('process.env.NODE_ENV', process.env.COSMIC_API_READ_KEY);
 module.exports = {
   mode: 'universal',
 
